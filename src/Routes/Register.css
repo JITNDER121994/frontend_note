@@ -1,0 +1,47 @@
+.reg_main_container{
+    width:400px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    box-shadow:  0 2px 5px rgb(0 0 0/ 10%), 0 7px 15px rgb(0 0 0/ 10%);
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 32rem;
+
+}
+ input{
+    border-radius: 9px;
+    border: 2px solid wheat;
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.3rem;
+    width: 100%;
+    font-size: 1rem;
+}
+ .register_btn 
+{
+    background:#1877f1;
+    border: 2px solid #1877f1 ;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    outline: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+ }
+ .sigin_btn 
+ {
+     background:#1877f1;
+     border: 2px solid #1877f1 ;
+     color: #fff;
+     font-size: 1.25rem;
+     padding: 0.5rem;
+     margin: 0.5rem 0;
+     outline: none;
+     width: 50%;
+     border-radius: 10px;
+     cursor: pointer;
+  }
