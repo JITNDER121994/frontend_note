@@ -6,7 +6,7 @@ export const HomeRoute = () => {
   const [fetControl, setFetchControl] = useState("");
   const [flag, setFlag] = useState(false);
   const [editParameter, seteditParameter] = useState({ flag: false, id: "" });
-  const URL = process.env.react_app_URL || "https://note-makerbackend.onrender.com /api/v1/";
+  const URL = process.env.react_app_URL || "https://note-makerbackend.onrender.com/api/v1/";
   async function addNote(e) {
     e.preventDefault();
     if (input.item) {
@@ -79,9 +79,7 @@ export const HomeRoute = () => {
    
           <li >HOME</li>
           <li>AddNote</li>
-          <li   onClick={(e) => {
-                  Delete();
-                }}>DeleteAll</li>
+          <li>DeleteAll</li>
           <li>Export</li>
 
           
